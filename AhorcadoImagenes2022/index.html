@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!--script para llamar al archivo css-->
+  <link rel="stylesheet" href="css/estilos.css" type="text/css">
+</head>
+<body>
+  <script>alert ("Juego del ahorcado")</script>
+  <!--contenedor rosa de la cabecera-->
+  <div id="contenedorArriba">
+    <!--imagen del ahorcad@-->
+    <img src=https://th.bing.com/th/id/OIP.tzPbNVVplR-P1UgY49hrXAHaD4?pid=ImgDet&rs=1>
+    <h1>Juego del ahorcado con imagenes</h1>
+  </div>
+  <!--contenedor morado de la cabecera-->
+  <div id="contenedorEscribir" align="center">
+    <!--caja de la izquierda que aparece llena de asteriscos-->
+    <input type="text" id="Aciertos" />
+    <!--caja de la derecha en donde introducimos el caracter-->
+    <b>Caracter :</b><input type="text" id="caracter" maxlength="1" />
+    <!--Aqui aparecen las letras que no hemos acertado-->
+    <b>Fallos :</b>
+    <span id="fallos"></span>
+    <!--boton para elegir las fotos que con las que queremos juagar-->
+    <input type="file" id="files" multiple />
+  </div>
+  <!--contenedor azul donde aparecen las fotos que seleccionamos-->
+  <div id="contenedor" align="center"></div>
+  <!--script para llamar al archivo js-->
+  <script src="js/funciones.js"></script>
+</body>
+
+</html>
